@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); 
+* {
+    margin:0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans';
+}
+
+.box{
+ text-align:center ;   
+}
+
+h2{
+text-align: center; 
+font-size: 12px; 
+
+
+}
+
+.containers{
+display: flex;
+background-color:#7580BF ;
+height: 60px;
+border: 2px solid;
+flex-direction: row-reverse;
+
+}
+
+.acceuil{
+    display: flex;
+    font-size: 20px;
+    background-color:#7580BF ;
+    height: 91vh;
+
+    .acceuil-left {
+        width: 50%;
+       background-image:url("vecteezy_graphic-design-icon-isolated-on-black-graphic-design-symbol_20235665.eps") ;
+    }
+
+    .acceuil-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+        p {
+            width: 55%;
+        }
+        
+    }
+
+
+h1 {
+    align-items: center;
+    line-height: 200px
+}
+
+.competence {
+    display: flex;
+    background-color: #F2F2F2  ;
+    height: 60px;
+    border: 2px solid;
+    text-align: center;
+    align-items: center;
+  
+   
+
+
+}
+
+h3{
+    text-align: center;
+    align-items: center; 
+  
+       
+}
+
+
+
