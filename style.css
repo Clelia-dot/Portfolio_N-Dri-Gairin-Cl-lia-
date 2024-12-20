@@ -7,16 +7,11 @@ body {
     font-family: 'Plus Jakarta Sans';
 }
 
-.box{
- text-align:center ;   
-}
-
-h2{
-text-align: center; 
-font-size: 12px; 
-
-
-}
+h1{
+    font-size: 50px; 
+    color: white;
+    text-align: left;
+    }
 
 .containers{
 display: flex;
@@ -27,55 +22,211 @@ flex-direction: row-reverse;
 
 }
 
+
 .acceuil{
     display: flex;
     font-size: 20px;
     background-color:#7580BF ;
     height: 91vh;
-
-    .acceuil-left {
+    flex-direction: row;
+    
+ .acceuil-left {
         width: 50%;
-       background-image:url("vecteezy_graphic-design-icon-isolated-on-black-graphic-design-symbol_20235665.eps") ;
+        img {
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            
+        }
     }
-
     .acceuil-right {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    } 
+        justify-content: center;
+        align-content: space-around;
+         } 
 
         p {
             width: 55%;
+            color: white;
+            text-align: left;
         }
-        
-    }
 
+        }
+    .nav-acceuil{
+       display: flex; 
+       align-items: end;
+       }
 
-h1 {
-    align-items: center;
-    line-height: 200px
+    .acceuil-bouton{
+     background-color: #F28DBC; 
+     border-radius: 12px;  
+     color: white;
+     margin-left: 50px;
+
+     }
+    .card-img_acceuil{
+            align-items: center;
+            background-color: white;  
+            border-radius: 12px;
+            height: 200px;
+            width: 200px;
+            float: right;
+            justify-content: flex-end;
+            margin-bottom: 23px;
+           }
+  
+.icon-plume{
+    
 }
 
 .competence {
+    /* display: flex; */
+    /* background-color: #F2F2F2  ; */
+    /* height: 60px; */
+    /* border: 2px solid; */
+    /* text-align: center;
+    align-items: center; */
+}
+
+
+.header-section {
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
     display: flex;
-    background-color: #F2F2F2  ;
-    height: 60px;
-    border: 2px solid;
-    text-align: center;
     align-items: center;
-  
-   
+    justify-content: center;
 
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        color:#292D73;
+        font-size: 200%;
+    }
 
 }
 
-h3{
-    text-align: center;
-    align-items: center; 
-  
+.main-section_competence {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+
+}
+
+.bloc{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;   
+    height: 50px;
+    width: 50px;
+     
+}
+
+
+
+
+ .icon-competence{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+
+/*
+
+    .icon-photoshop{
+        display: flex;
+        height: 50px;
+        width: 50px; 
+        margin-left: 50px;
+        margin-bottom: -200px;
+    }
+    
+    .icon-after {
+        display: flex;
+        height: 50px;
+        width: 50px; 
+        margin-left: 50px;
+        margin-bottom: -200px;
        
+    }
+    
+    .indesign{
+        display: flex;
+        height: 50px;
+        width: 50px; 
+        margin-left: 50px;
+        margin-bottom: -200px;
+    }
+    
+    .icon-mot{
+        display: flex;
+        height: 50px;
+        width: 50px; 
+        margin-left: 50px;
+        margin-bottom: -200px; 
+        left: 30px;
+    } */
+  
+    
+    /* .header-section1{
+    h3{
+        
+        color:#292D73;
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+        color:#292D73;
+        font-size: 200%;
+        
+    }   
+
+} */
+
+
+.header-section1{
+    h3{
+        
+        color:#292D73;
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+        color:#292D73;
+        font-size: 200%;
+        background-color: #F2F2F2;
+        width: 100%;
+        
+    }
+
 }
 
 
+.couleurs-icon{
+display: grid;
+grid-template-rows: 50px;
+gap: 15px;
+background-color: #292D73;
 
+}
+
+.carre-icon {
+    background-color: #292D73;
+    width: 60px;
+    height: 60px;
+    border-radius:20px 20px 0px 20px;
+}
+.carre-icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292D73;
+    width: 65px;
+    height: 65px;
+    border-radius:20px;
+}
